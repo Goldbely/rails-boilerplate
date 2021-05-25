@@ -28,6 +28,6 @@ When you're done working locally you can stop the containers and remove the imag
 
 ```bash
 docker compose down
-docker rmi goldbelly-code-test-rails-boilerplate_web
+docker rmi rails-boilerplate
 ```
 
