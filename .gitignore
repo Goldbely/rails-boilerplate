@@ -13,6 +13,11 @@
 !/log/.keep
 !/tmp/.keep
 
+# Ignore Docker db files, but keep the directory
+/tmp/db/*
+!/tmp/db/
+!/tmp/db/.keep
+
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
 !/tmp/pids/
